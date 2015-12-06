@@ -1,0 +1,18 @@
+Zadanie 1
+a) Jeœli ¿adna z metod nie ma deklaracji "virtual" metoda Wypisz wywo³ana dla klasy Bazowej wyœwietli informacje ¿e pochodzi z klasy Bazowej,
+metoda Wypisz wywo³ana dla klasy Pochodnej wyœwietli informacje ¿e pochodzi z klasy Pochodnej. Natomiast wywo³anie metody Wypisz za pomoc¹ wskaŸnika 
+bptr spowodowa³o wywo³anie metody Wypisz pochodz¹cej z klasy bazowej. Sta³o siê tak dlatego poniewa¿ wskaŸnik by³ typu klasy bazowej.
+
+b) Jeœli metoda w klasie bazowej ma deklaracjê virtual, a w klasie pochodnej 'override' to podobnie jak w poprzednik punkcie, metoda Wypisz dla klasy Bazowej 
+wypisze ¿e pochodzi z klasy Bazowej a dla klasy pochodnej wypisze ¿e pochodzi z klasy pochodnej. Dla trzeciego przypadku sytuacja uleg³a zmianie, 
+teraz dostajemy informacje ¿e wywo³anie metody Wypisz przy pomocy wskaŸnika wyœwietla inforacje o pochodzeniu z klasy pochodnej. Dzieje siê tak poniewa¿, 
+s³owo override oznacza ¿e metoda w klasie pochodnej przes³ania metodê wirtualn¹ z klasy bazowej.
+
+c) Jeœli metoda w klasie bazowej ma deklaracje 'final' oraz 'virtual', a w klasie pochodnej nie ma ¿adnej deklaracji, program nie bêdzie siê kompilowa³.
+Metoda Wypisz o deklaracji 'final' oraz 'virtual' w klasie bazowej nie mo¿e byæ przes³onieta przez metode Wypisz z funkcji pochodnej. 
+
+
+Zadanie 2
+
+Szablony funkcji mog¹ zast¹piæ wiele funkci ró¿ni¹cych siê tylko typem argumentów, oszczêdza nam to czas a dodatkowo w razie wykrycia b³êdu u³atwia jego usuniêcie,
+nie musimy poprawiaæ b³êdów w wielu funkcjach a tylko w jednej. Dziêki temu w moim programie mog³em wykonywaæ funkcjê dla ró¿nych typów danych.

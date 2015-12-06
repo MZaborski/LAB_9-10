@@ -1,0 +1,27 @@
+﻿Build started 06.12.2015 21:00:59.
+     1>Project "C:\Users\Mateusz\Desktop\Obiektowe\Zad_3\1\1\1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\1.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt 1.cpp
+         1.cpp
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(30): error C2011: 'Bazowa': 'class' type redefinition
+         c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(7): note: see declaration of 'Bazowa'
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(39): error C2011: 'Pochodna': 'class' type redefinition
+         c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(16): note: see declaration of 'Pochodna'
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(77): error C2079: 'b' uses undefined class 'Bazowa'
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(78): error C2079: 'p' uses undefined class 'Pochodna'
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(80): error C2228: left of '.Wypisz' must have class/struct/union
+         c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(80): note: type is 'int'
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(81): error C2228: left of '.Wypisz' must have class/struct/union
+         c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(81): note: type is 'int'
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(83): error C2440: 'initializing': cannot convert from 'int *' to 'Bazowa *'
+         c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(83): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(84): error C2027: use of undefined type 'Bazowa'
+         c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(52): note: see declaration of 'Bazowa'
+     1>c:\users\mateusz\desktop\obiektowe\zad_3\1\1\1.cpp(84): error C2227: left of '->Wypisz' must point to class/struct/union/generic type
+     1>Done Building Project "C:\Users\Mateusz\Desktop\Obiektowe\Zad_3\1\1\1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.36
